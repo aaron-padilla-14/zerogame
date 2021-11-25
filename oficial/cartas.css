@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+:root {
+  --white: hsl(105, 100%, 50%);
+  --card-blue: hsl(0, 0%, 0%);
+  --bg-blue: hsl(216, 53%, 9%);
+  --base-font: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--bg-blue);
+  font-family: var(--base-font);
+  width: 100vw;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.testimonial {
+  background-color: var(--card-blue);
+  border-radius: 5px;
+  padding: 40px 25px 25px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 280px;
+      flex-basis: 280px;
+  max-width: 380px;
+  position: relative;
+}
+
+.testimonial__text {
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 21px;
+  margin-bottom: 1.5625rem;
+}
+
+.testimonial__job {
+  font-weight: normal;
+  font-size: 0.5rem;
+  line-height: 10px;
+  letter-spacing: 0.5px;
+}
+
+.testimonial__name {
+  font-weight: bold;
+  font-size: 0.625rem;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.testimonial__img {
+  display: inline-block;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.testimonial__img img {
+  vertical-align: bottom;
+  border-radius: 50%;
+}
+
+.testimonial__info {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container--testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 45px 45px 90px;
+}
+
+@media (min-width: 78.125em) {
+  .container--testimonials {
+    padding: 0;
+    max-width: 1160px;
+  }
+}
+/*# sourceMappingURL=cartas.css.map */
