@@ -1,0 +1,80 @@
+.callout {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+    border: solid 5px rgb(85, 255, 0);  
+  }
+  
+  .callout-header {
+    padding: 25px 15px;
+    background: rgb(0, 0, 0);
+    font-size: 30px;
+    color: rgb(149, 255, 0);
+    text-shadow: 2px 2px 5px #00ff9d;
+  }
+  
+  .callout-container {
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(72, 255, 0)
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: rgb(0, 121, 101);
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .closebtn:hover {
+    color: rgb(0, 255, 229);
+  }
+  #botonanuncio{
+      width: 100%;
+      color: rgb(0, 0, 0);
+      background-color: greenyellow;
+      height: 40px;
+      border: solid 2px greenyellow;
+  }
+
+
+
+
+
+
+
+
+  /*mostrar y ocultar*/
+
+  .titulo_boton {
+    background-color:#000000;
+    width:100%;
+    font-family:helvetica;
+    font-size:16px;
+    font-weight:bold;
+    color: greenyellow;
+    border: solid 1px greenyellow;
+  }
+  .boton_mostrar {
+    float:center;
+    font-size:12px;
+    line-height:20px;
+    color:#28de17;
+  }
+  #contenido{
+    float:left;
+    clear:both;
+    border:2px solid #00ff9d;
+    margin-top:2px;
+    padding:5px;
+    width:100%;
+    overflow:auto;
+    font-family:helvetica;
+    font-size:10px;
+    text-align: justify;
+    background-color: black;
+  }
